@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+</head>
+<body>
+    <h1>Travel carefree</h1>
+    <hr>
+    <br>
+    <div>
+        <form action="travel.php">
+            <label for="destination">
+                Enter destination:
+                <input type="text" name="destination" placeholder="Enter destination" id="destination">
+            </label>
+            <br>
+            <label for="stay-period-id">
+                <input type="radio" value="One day stay" name="stay-period" id="stay-period-id">One day stay
+            </label>
+            <label for="multiple day stay id">
+                <input type="radio" name="stay-period" value="multiple day stay" id="multiple day stay id">Multiple day stay
+            </label>
+            <br>
+            <label for="check-in-date-id">
+                Enter check-in Date:
+                <input type="date" id="check-in-date-id" name="check-in-date">
+            </label>
+            <br>
+            <label for="check-out-date-id">
+                Enter check-out-date:
+                <input type="date" name="check-out-date" id="check-out-date-id">
+            </label>
+            <br>
+            Select preference:
+            <select name="people" id="people-no-id">
+                <option value="single">1 room,1 guest</option>
+                <option value="couple">1 room,2 guests</option>
+                <option value="family">1 room,4 guests</option>
+            </select>
+            <br>
+            <label for="Searchid">
+                <input type="button" name="search" id="Searchid" value="Search">
+            </label>
+        </form>
+    </div>
+</body>
+</html>
